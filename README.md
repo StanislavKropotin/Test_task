@@ -6,6 +6,6 @@ Service for viewing content:
 
 3) Run the application with the command "python app.py"
 
-4) Follow this link:: http://127.0.0.1:5000/
+4) Follow this link: http://127.0.0.1:5000/
 
 5) Every time you refresh the page you will receive a new image.
