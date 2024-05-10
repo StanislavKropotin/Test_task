@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Viewer</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    {% if url %}
+        <img src="{{ url }}" alt="Random Image">
+        <div class="message">
+            Categories: {{ categories | join(', ') }}
+        </div>
+    {% else %}
+        <div class="message">
+            Для запрошенных категорий нет доступных изображений.
+        </div>
+    {% endif %}
+</body>
+</html>
